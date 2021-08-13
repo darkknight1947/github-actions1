@@ -11,7 +11,7 @@ COPY . /cpp-action1
 WORKDIR /cpp-action1/
 
 # Use GCC to compile the Test.cpp source file
-#RUN g++ -o Test Test.cpp
+RUN g++ -o Test Test.cpp
 
 # Run the program output from the previous step
 #CMD ["./Test"]
