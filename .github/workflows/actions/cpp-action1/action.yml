@@ -1,7 +1,0 @@
-name: "Cpp Action"
-
-description: "Cpp prog execution with GitHub Actions"
-
-runs:
-  using: "docker"
-  image: "Dockerfile"
