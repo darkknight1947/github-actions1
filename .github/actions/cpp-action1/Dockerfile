@@ -12,4 +12,4 @@ COPY . .
 RUN g++ -o Test Test.cpp
 
 # Run the program output from the previous step
-CMD ["./Test"]
+CMD ["Test"]
