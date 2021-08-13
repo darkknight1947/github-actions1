@@ -14,4 +14,4 @@ WORKDIR /cpp-action1/
 RUN g++ -o Test Test.cpp
 
 # Run the program output from the previous step
-ENTRYPOINT ["Test"]
+ENTRYPOINT ["/cpp-action1/Test"]
