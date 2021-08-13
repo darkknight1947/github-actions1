@@ -14,4 +14,4 @@ WORKDIR /cpp-action1/
 RUN g++ -o Test Test.cpp
 
 # Run the program output from the previous step
-#CMD ["./Test"]
+CMD ["./cpp-action1/Test"]
